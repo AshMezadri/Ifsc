@@ -7,6 +7,14 @@ public class AnimalMain {
 	public static void main(String[] args) {
 
 		ArrayList<Gato> listaGato = new ArrayList<>();
+		
+		Cachorro latido = new Cachorro();
+
+		latido.late();
+		
+		Gato miado = new Gato();
+		
+		miado.mia();
 
 		Gato gato1 = new Gato();
 
@@ -105,6 +113,7 @@ public class AnimalMain {
 
 		}
 
+		
 	}
 
 }
